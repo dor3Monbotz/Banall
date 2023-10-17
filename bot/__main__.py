@@ -1,6 +1,6 @@
 from pyrogram import idle
 from .config import Config
-bot.start()
+app.start()
 if Config.PYRO_SESSION:
    app.run()
 idle()
