@@ -1,8 +1,7 @@
-from pyrogram import idle
+from pyrogram import idle, app
 from .config import Config
-from . import ass
 bot.start()
 if Config.PYRO_SESSION:
-   ass.start()
+   app.run()
 idle()
 bot.stop()
